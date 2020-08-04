@@ -28,7 +28,7 @@
  		</div> 
 	 	<div class="right-section">
 	 		<div class="welcome-text">
-		        <h1>Welcome Back</h1>
+		        <h1><b><i>Welcome Back!</i></b></h1>
 		        <p>Quisque ultricies aliquam pellentesque. Aliquam libero orci, efficitur et maximus eget, porttitor vel ex. Sed imperdiet lacus non ipsum pharetra, non sagittis felis semper.</p>
 	        </div>
 	    </div>
