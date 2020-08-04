@@ -1,34 +1,37 @@
  <!DOCTYPE html>
- <html>
+ <html lang="en">
  <head>
- 	<title></title>
- 	<meta charset="utf-8">
- 	<meta name="viewport" content="width=device width, initial-scale=1">
+ 	<title>WebChat</title>
+ 	<meta charset="UTF-8">
+ 	<meta name="viewport" content="device-width, initial-scale=1.0">
+ 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
  	<link rel="stylesheet" type="text/css" href="css/SignIn.css">
  </head>
  <body>
- 	<div class="signin-form">
- 		<form action="" method="Post">
+ 	<div class="signin">
+ 		<div class="left-section">
  			<div class="form-header">
- 				<h2>Sign In</h2>
- 				<p>Login To WebChat</p>
+ 				<h1>WebChat!</h1>
+ 				<p>SignIn to your account!</p>
  			</div>
  			<div class="form-group">
- 				<label for="phone">Mobile No</label>
- 				<input class="form-control" type="tel" name="mobile" placeholder="Enter mobile number..." autocomplete="off" required>
+ 				<form class="" action="" method="post">
+		            <input type="tel" placeholder="Mobile" required>
+		            <input type="password" placeholder="Password" required>
+		            <span class="floatleft"><input type="checkbox"> Remember me</span>
+		            <span class="floatright"><a href="#">Forgot Password?</a></span>
+		            <input type="submit" value="Sign In">
+		        </form>
+ 			    <!-- <?php include("signin_user.php"); ?> -->
+ 			    <div class="account">Don't Have an Account? <a href="signup.php">Create</a></div>
  			</div>
- 			<div class="form-group">
- 				<label>Password</label>
- 				<input class="form-control" type="password" name="password" placeholder="Enter password..." autocomplete="off" required>
- 			</div>
- 			<div class="small">Forgot Password? <a href="forgot_pass.php">Click Here</a></div><br>
- 			<div class="form-group">
- 				<button type="submit" class="btn btn-primary btn-block btn-lg" name="sign_in">SignIn</button>
- 			</div>
-
- 			<!-- <?php include("signin_user.php"); ?> -->
- 			<div class="text-center small" style="color: #674288;">Don't have account?<a href="signup.php">Create One</a></div>
- 		</form>
- 	</div> 
- </body>
- </html>
+ 		</div> 
+	 	<div class="right-section">
+	 		<div class="welcome-text">
+		        <h1>Welcome Back</h1>
+		        <p>Quisque ultricies aliquam pellentesque. Aliquam libero orci, efficitur et maximus eget, porttitor vel ex. Sed imperdiet lacus non ipsum pharetra, non sagittis felis semper.</p>
+	        </div>
+	    </div>
+    </div>
+</body>
+</html>
