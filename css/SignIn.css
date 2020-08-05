@@ -60,7 +60,7 @@ body a{
   margin: 0 auto;
   text-align: center;
 }
-.form-group input[type=tel], .form-group input[type=password]{
+.form-group input[type=tel], .form-group input[type=password],.form-group input[type=text]{
   width: 300px;
   padding: 14px 12px;
   border-radius: 30px;
