@@ -1,0 +1,37 @@
+тargin: -30pх -30рх 20рх;
+padding: 30px 30рх 10рх;
+text-align: center;
+background: #00cb82;
+border-bottom: 1px solid #eee;
+color: #fff;
+}
+.form-header h2{
+font-size: 34px;
+font-weight: bold;
+margin: 0 0 10px;
+font-family: 'Pacifico', sans-serif;
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32 }
+.form-header p{
+margin: 20px 0 15px;
+font-size: 17px;
+line-height: normal;
+font-family: 'Courgette', sans-serif;
+33
+34
+35
+36
+37
+38
+39
