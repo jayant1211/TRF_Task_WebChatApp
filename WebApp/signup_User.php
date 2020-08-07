@@ -1,8 +1,8 @@
 <?php 
 include("include/connection.php");
 if (isset($_POST['sign_up'])) {
-	$name = htmlentities(mysqli_real_escape_string($con, $_POST['user_name']));
-	$mobile = htmlentities(mysqli_real_escape_string($con, $_POST['user_mob']));
+	$name = mysqli_real_escape_string($con, $_POST['user_name']);
+	$mobile = mysqli_real_escape_string($con, $_POST['user_mob']);
 	$pass = htmlentities(mysqli_real_escape_string($con, $_POST['user_pass']));
 	$image_name = $_FILES['imageupload']['name'];  
     $temp_name  = $_FILES['imageupload']['tmp_name'];
