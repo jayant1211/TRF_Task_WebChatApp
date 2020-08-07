@@ -5,8 +5,8 @@ include("include/connection.php");
 
 if(isset($_POST['sign_in']))
 {
-    $phone_no = htmlentities(mysqli_real_escape_string($con,$_POST['phone_no']));
-    $pass = htmlentities(mysqli_real_escape_string($con,$_POST['pass']));
+    $phone_no = mysqli_real_escape_string($con,$_POST['phone_no']);
+    $pass = mysqli_real_escape_string($con,$_POST['pass']);
     
     $select_user = "SELECT * from users where phone_no='$phone_no' AND user_pass='$pass'";
 
